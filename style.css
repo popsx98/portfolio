@@ -21,9 +21,13 @@ body{
   line-height:1.65;
 }
 
-/* Header (Future Imperfect look: clean bar with subtle shadow) */
+/* Header */
 .site-header{
-  position:sticky; top:0; z-index:20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* makes sure it stays above cards */
   background:var(--panel);
   border-bottom:1px solid var(--border);
   box-shadow:var(--shadow);
@@ -38,6 +42,9 @@ body{
 /* Layout */
 main{max-width:var(--maxw); margin:0 auto; padding:2rem 1.25rem 4rem}
 .section{padding:2.25rem 0}
+main {
+  padding-top: 80px; /* adjust if header is taller */
+}
 
 /* Hero (big title, understated para) */
 .hero{padding:3.5rem 0 2.25rem; text-align:center}
