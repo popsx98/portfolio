@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Safiyyah Karim | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects — Safiyyah Karim</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <a href="index.html" class="site-logo">
-    <img src="images/logo.png" alt="SK logo" class="logo">
-  </a>
+      <img src="images/logo.png" alt="Safiyyah Karim logo" class="logo">
+    </a>
     <nav aria-label="Primary">
       <ul class="nav-list">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="index.html#skills">Skills</a></li>
-        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="profile.html">Profile</a></li>
         <li><a href="index.html#contact">Contact</a></li>
+        <li><a class="btn btn-outline" href="https://www.linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a></li>
       </ul>
     </nav>
   </header>
@@ -25,67 +25,53 @@
   <main>
     <section class="section">
       <h1>Projects</h1>
-      <p class="muted">Selected evaluations and research projects across business & skills, youth/community, and environment/heritage — with an emphasis on practical, decision-ready outputs.</p>
+      <p class="muted">
+        A full view of the evaluations and research projects I’ve worked on, including sector, role, methods used, and key outcomes.
+      </p>
     </section>
 
     <section class="section">
-      <div class="grid">
-        <article class="card">
-          <h2>Business & Skills Support — Programme Evaluation</h2>
-          <p>Led an end-to-end evaluation covering SMEs and training providers. Built a theory of change and proportionate measurement framework, ran interviews/focus groups/surveys, and triangulated findings to show what worked, for whom, and why.</p>
-          <ul class="tag-list"><li>Mixed Methods</li><li>SME & Provider Stakeholders</li><li>Recommendations & KPIs</li></ul>
-          <p class="muted">Outcome: prioritised changes to outreach and course design; created a lean KPI set for ongoing monitoring.</p>
-        </article>
+      <h2>Project Portfolio (Full List)</h2>
+      <div class="table-wrapper">
+        <table class="projects-table">
+          <thead>
+            <tr>
+              <th>Project / Programme</th>
+              <th>Client / Funder</th>
+              <th>Sector / Theme</th>
+              <th>My Role</th>
+              <th>Methods / Data</th>
+              <th>Summary &amp; Outcomes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!--
+              Add ONE <tr> per row from your Excel.
+              For each project, map your columns into these cells.
+              Example row below – duplicate and replace with your real data.
+            -->
+            <tr>
+              <td>Example: Business & Skills Support Evaluation</td>
+              <td>Example: Local Authority / Growth Hub</td>
+              <td>Business & Skills</td>
+              <td>Lead evaluator – framework design, fieldwork, reporting</td>
+              <td>Interviews, focus groups, online survey, desk analysis</td>
+              <td>Developed proportionate ToC and indicators; evidenced impact on SME growth and training take-up; produced recommendations adopted in next delivery phase.</td>
+            </tr>
 
-        <article class="card">
-          <h2>Youth & Community Initiatives — Primary Research</h2>
-          <p>Delivered sensitive primary research with young people and vulnerable groups using trauma-informed practice and ethical safeguards. Co-designed engagement to reduce burden, and produced accessible summaries for practitioners and funders.</p>
-          <ul class="tag-list"><li>TIP & Ethics</li><li>Qualitative Depth</li><li>Accessible Outputs</li></ul>
-          <p class="muted">Outcome: partners adjusted delivery models and safeguarding workflows based on lived-experience feedback.</p>
-        </article>
-
-        <article class="card">
-          <h2>Environment & Heritage — Evaluation Frameworks</h2>
-          <p>Developed logic models, indicators and data plans for sustainability, property/land and heritage programmes, aligned to Magenta Book standards. Clarified feasible evidence pathways where full counterfactuals weren’t proportionate.</p>
-          <ul class="tag-list"><li>ToC & Logic Models</li><li>Magenta Book</li><li>Proportionate Evidence</li></ul>
-          <p class="muted">Outcome: funders adopted right-sized monitoring and clearer success criteria for future bids.</p>
-        </article>
-
-        <article class="card">
-          <h2>Data Visual Storytelling — Exec Summaries & Dashboards</h2>
-          <p>Produced concise, visual executive summaries and infographics to communicate key results at-a-glance; supported simple Power BI dashboards where appropriate.</p>
-          <ul class="tag-list"><li>Infogram</li><li>Piktochart</li><li>Power BI (light)</li></ul>
-          <p class="muted">Outcome: decision-makers could scan insights quickly; reports gained better engagement.</p>
-        </article>
-
-        <article class="card">
-          <h2>Internal Brand Refresh — Visuals Hub & Templates</h2>
-          <p>Standardised colour system, slide/report templates and iconography. Set up a Visuals Hub to speed up production and improve quality across teams.</p>
-          <ul class="tag-list"><li>Design System</li><li>Templates</li><li>Ops Enablement</li></ul>
-          <p class="muted">Outcome: faster report turnaround and more consistent client-facing materials.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Methods & Tools Used</h2>
-      <div class="grid two-col">
-        <article class="card">
-          <h3>Methods</h3>
-          <ul>
-            <li>Interviews, focus groups, online surveys, observation</li>
-            <li>Process & impact evaluation; contribution analysis</li>
-            <li>Outcome mapping & harvesting; theory of change; logic models</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Tools</h3>
-          <ul>
-            <li>NVivo / QDA Miner; Excel</li>
-            <li>SurveyMonkey, Snap, Microsoft Forms, Mentimeter</li>
-            <li>Infogram, Piktochart; Power BI (foundational)</li>
-          </ul>
-        </article>
+            <!-- Duplicate this block for each project -->
+            <!--
+            <tr>
+              <td>[Project / Programme]</td>
+              <td>[Client / Funder]</td>
+              <td>[Sector / Theme]</td>
+              <td>[My Role]</td>
+              <td>[Methods / Data]</td>
+              <td>[Summary & Outcomes]</td>
+            </tr>
+            -->
+          </tbody>
+        </table>
       </div>
     </section>
   </main>
@@ -95,4 +81,3 @@
   </footer>
 </body>
 </html>
-
