@@ -162,3 +162,8 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
+/* Add more space ABOVE page titles */
+main h1,
+main h2 {
+  margin-top: 3rem;   /* increase this number for more spacing */
+}
