@@ -85,7 +85,7 @@ main {
 .btn{appearance:none; border:0; background:var(--accent); color:#fff; padding:.6rem .95rem; border-radius:8px; font-weight:700; text-decoration:none; display:inline-block}
 .btn:hover{filter:brightness(1.05)}
 .btn:active{transform:translateY(1px)}
-.btn-outline{background:transparent; color:var(--accent); border:1.5px solid var(--accent); box-shadow:none}
+.btn-outline{margin-top: 1rem; background:transparent; color:var(--accent); border:1.5px solid var(--accent); box-shadow:none}
 .btn-outline:hover{background:var(--accent); color:#fff}
 
 /* Tag list (soft pills) */
