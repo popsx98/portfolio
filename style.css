@@ -23,6 +23,7 @@ body{
 
 /* Header */
 .site-header{
+  padding-top: 12px;
   position: fixed;
   top: 0;
   left: 0;
@@ -104,14 +105,16 @@ a:hover{text-decoration:underline}
 
 /* Logo in header */
 .site-logo {
+  padding-left: 16px;
+  padding-top: 8px;
   display: flex;
   align-items: center;
   gap: .4rem;
 }
 
 .site-logo .logo {
-  height: 42px;
-  width: 42px;
+  height: 46px;
+  width: 46px;
   border-radius: 50%;
   display: block;
 }
