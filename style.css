@@ -126,8 +126,8 @@ a:hover{text-decoration:underline}
 }
 
 .site-logo .logo {
-  height: 36px;   /* smaller logo to reduce header height */
-  width: 36px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
   display: block;
 }
@@ -162,8 +162,11 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
-/* Add more space ABOVE page titles */
-main h1,
-main h2 {
+
+main h1 {
   margin-top: 3rem;   /* increase this number for more spacing */
+}
+
+main h2 {
+  margin-top: 2rem;   /* increase this number for more spacing */
 }
