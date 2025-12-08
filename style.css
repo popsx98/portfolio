@@ -40,10 +40,10 @@ body{
 .nav-list a.active{border-color:var(--accent); color:var(--accent)}
 
 /* Layout */
-main{max-width:var(--maxw); margin:0 auto; padding:2rem 1.25rem 4rem}
+main{max-width:var(--maxw); margin:0 auto; padding:2rem 1.25rem 2rem}
 .section{padding:2.25rem 0}
 main {
-  padding-top: 80px; /* adjust if header is taller */
+  padding-top: 70px; /* adjust if header is taller */
 }
 
 /* Hero (big title, understated para) */
