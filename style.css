@@ -142,8 +142,7 @@ a:hover{text-decoration:underline}
   font-size: 0.95rem;
 }
 
-.projects-table th,
-.projects-table td {
+.projects-table th, .projects-table td {
   padding: 0.3rem 0.8rem;
   border-bottom: 1px solid var(--border);
   text-align: left;
@@ -161,25 +160,21 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
-.description-row {
-  border: none;
-}
-
-.description-row .desc-content {
+/* Description row */
+ .description-row .desc-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.35s ease, padding 0.35s ease;
   background: #f9f9f9;
-  color: var(--text);
+  color: var(--text, #333);
   font-style: italic;
-  padding: 0; /* start collapsed */
+  padding: 0;
 }
 
 .description-row.show .desc-content {
-  max-height: 500px; /* enough for content */
-  padding: 0.5rem 0; /* add vertical padding when open */
+  max-height: 1000px; /* adjust if needed */
+  padding: 0.5rem 0;
 }
-
 
 main h2 {
   margin-top: 2.5rem;   /* increase this number for more spacing */
