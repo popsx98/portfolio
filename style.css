@@ -27,7 +27,7 @@ body{
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 999; /* makes sure it stays above cards */
+  z-index: 999; 
   background:var(--panel);
   border-bottom:1px solid var(--border);
   box-shadow:var(--shadow);
@@ -39,7 +39,7 @@ body{
 .site-header nav{
   max-width:var(--maxw);
   margin:0 auto;
-  padding:.9rem 1.25rem;             /* tighter padding */
+  padding:.9rem 1.25rem;           
   display:flex;
   align-items:center;
   gap:1rem;
@@ -54,16 +54,16 @@ body{
 
 /* Layout: increased top padding to clear fixed header (match the smaller header) */
 main{max-width:var(--maxw); margin:0 auto; padding:1.75rem 1.25rem 2rem}
-.section{padding:2.25rem 0}
+.section{padding:1.2rem 0}
 main {
   padding-top: 68px; /* matches compact header height so content isn't hidden */
 }
 
 /* Hero (big title, understated para) */
-.hero{padding:3.5rem 0 2.25rem; text-align:center}
+.hero{padding-bottom:1.2rem 0 2.25rem; text-align:center}
 .hero h1{font-family: "Source Sans Pro", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-weight:800; letter-spacing:.2px; font-size:clamp(1.6rem,3.5vw,2.6rem); margin:2rem 0 .75rem}
 .hero p{max-width:70ch; margin:0 auto 1rem; color:var(--muted)}
-.hero-ctas{display:flex; gap:.6rem; justify-content:center}
+.hero-ctas{display:flex; gap:.6rem; justify-content:center; margin-bottom:0.5rem;}
 
 /* Cards & grid (soft borders + hover lift) */
 .grid{display:grid; gap:1.1rem; grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
@@ -101,7 +101,7 @@ main {
 .contact-actions{display:flex; gap:.6rem; flex-wrap:wrap}
 
 /* Footer */
-.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:20px; padding-bottom:20px; color:var(--muted); border-top:1px solid var(--border)}
+.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:1rem; padding-bottom:1rem; color:var(--muted); border-top:1px solid var(--border)}
 
 /* Links */
 a{color:#3f8ed5; text-underline-offset:2px}
@@ -115,7 +115,7 @@ a:hover{text-decoration:underline}
   .nav-list a{padding:.4rem .65rem}
 }
 
-/* Logo in header — add slight breathing space and smaller logo */
+/* Logo in header */
 .site-logo {
   padding-left: 16px;
   padding-top: 8px;
