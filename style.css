@@ -161,6 +161,15 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
+.description-row {
+  display: none;
+}
+
+description-row td {
+  background: #f9f9f9;
+  color: var(--text);
+  font-style: italic;
+}
 main h2 {
   margin-top: 2.5rem;   /* increase this number for more spacing */
 }
