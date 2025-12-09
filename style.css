@@ -172,3 +172,12 @@ body.home main {
 body.inner main {
   padding-top: 90px;
 }
+
+.hero-ctas .btn {
+  margin-top: 0.5rem;
+}
+
+.contact-actions {
+  margin-top: 0.5rem;
+}
+
