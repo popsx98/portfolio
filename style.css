@@ -161,6 +161,10 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
+.description-row {
+  border: none;
+}
+
 .description-row .desc-content {
   max-height: 0;
   overflow: hidden;
@@ -174,10 +178,6 @@ a:hover{text-decoration:underline}
 .description-row.show .desc-content {
   max-height: 500px; /* enough for content */
   padding: 0.5rem 0; /* add vertical padding when open */
-}
-
-.description-row {
-  border: none; /* optional: remove border on description row */
 }
 
 
