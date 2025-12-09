@@ -699,21 +699,22 @@
                 </div>
               </td>
             </tr>
-          </tbody>
-        </table>
-      </div>
 
-    <script>
+          <script>
 document.querySelectorAll('.toggle-desc').forEach(btn => {
   btn.addEventListener('click', () => {
     const descRow = btn.closest('tr').nextElementSibling;
+    if (!descRow.classList.contains('description-row')) return; // safety check
     descRow.classList.toggle('show');
-    
-    // Change button text
+
     btn.textContent = descRow.classList.contains('show') ? 'Hide details' : 'Show details';
   });
 });
 </script>
+
+          </tbody>
+        </table>
+      </div>
 
       
     </section>
