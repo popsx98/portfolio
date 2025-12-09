@@ -161,6 +161,9 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
+.description-row {
+  display: table-row; /* must be table-row, not block */
+}
 .description-row .desc-content {
   max-height: 0;
   overflow: hidden;
