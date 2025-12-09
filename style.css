@@ -52,11 +52,11 @@ body{
 .nav-list a:hover{border-color:var(--border); background:#fafafa}
 .nav-list a.active{border-color:var(--accent); color:var(--accent)}
 
-/* Layout: increased top padding to clear fixed header (match the smaller header) */
+/* Layout */
 main{max-width:var(--maxw); margin:0 auto; padding:1.75rem 1.25rem 2rem}
 .section{padding:1.2rem 0}
 main {
-  padding-top: 68px; /* matches compact header height so content isn't hidden */
+  padding-top: 2rem; /* matches compact header height so content isn't hidden */
 }
 
 /* Hero (big title, understated para) */
@@ -101,7 +101,7 @@ main {
 .contact-actions{display:flex; gap:.6rem; flex-wrap:wrap}
 
 /* Footer */
-.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:1rem; padding-bottom:1rem; color:var(--muted); border-top:1px solid var(--border)}
+.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:1.2rem; padding-bottom:1.2rem; color:var(--muted); border-top:1px solid var(--border)}
 
 /* Links */
 a{color:#3f8ed5; text-underline-offset:2px}
