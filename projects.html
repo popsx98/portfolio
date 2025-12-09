@@ -714,7 +714,7 @@
 </body>
   
          <script>
-document.querySelectorAll('toggle-btn').forEach(btn => {
+document.querySelectorAll('.toggle-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const descRow = btn.closest('tr').nextElementSibling;
     if (!descRow.classList.contains('description-row')) return; // safety check
