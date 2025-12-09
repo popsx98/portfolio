@@ -164,3 +164,11 @@ a:hover{text-decoration:underline}
 main h2 {
   margin-top: 2.5rem;   /* increase this number for more spacing */
 }
+
+body.home main {
+  padding-top: 120px;
+}
+
+body.inner main {
+  padding-top: 90px;
+}
