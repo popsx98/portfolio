@@ -161,9 +161,6 @@ a:hover{text-decoration:underline}
   background: #fafafa;
 }
 
-.description-row {
-  display: table-row; /* must be table-row, not block */
-}
 .description-row .desc-content {
   max-height: 0;
   overflow: hidden;
@@ -171,13 +168,18 @@ a:hover{text-decoration:underline}
   background: #f9f9f9;
   color: var(--text);
   font-style: italic;
-  padding: 0 0; /* start with no padding */
+  padding: 0; /* start collapsed */
 }
 
 .description-row.show .desc-content {
-  max-height: 500px; /* large enough for content */
-  padding: 0.5rem 0; /* restores padding when shown */
+  max-height: 500px; /* enough for content */
+  padding: 0.5rem 0; /* add vertical padding when open */
 }
+
+.description-row {
+  border: none; /* optional: remove border on description row */
+}
+
 
 main h2 {
   margin-top: 2.5rem;   /* increase this number for more spacing */
