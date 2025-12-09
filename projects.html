@@ -26,7 +26,7 @@
     <section class="section">
       <h2>Projects</h2>
       <p class="muted">
-        Evaluations and research projects I have worked on, showing the range of clients, funders and programme scale.
+        Portfolio of evaluation and research projects, highlighting the variety of clients and funders I have partnered with.
       </p>
     </section>
 
@@ -39,15 +39,23 @@
               <th>Client</th>
               <th>Funder</th>
               <th>Lifetime of project</th>
+              <th>Details</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Evaluation of the Better Off in Business Programme</td>
-              <td>The Prince&#39;s Trust</td>
+              <td>The King's Trust (formerly The Prince's Trust)</td>
               <td>European Regional Development Fund (ERDF)</td>
               <td>2020–2021</td>
+              <td><button class="toggle-btn">Show description</button></td>
             </tr>
+            <tr class="description-row">
+              <td colspan="5">
+                This project evaluated business outcomes and support provided to young people interested in self-employment. I conducted surveys, interviews, data analysis, and contributed to the programme evaluation report.
+              </td>
+            </tr>
+    
             <tr>
               <td>Evaluation of the Durham Advance Employability Programme</td>
               <td>Durham County Council</td>
@@ -327,6 +335,22 @@
           </tbody>
         </table>
       </div>
+
+      <script>
+  document.querySelectorAll('.toggle-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const descriptionRow = button.closest('tr').nextElementSibling;
+      if (descriptionRow.style.display === 'table-row') {
+        descriptionRow.style.display = 'none';
+        button.textContent = 'Show description';
+      } else {
+        descriptionRow.style.display = 'table-row';
+        button.textContent = 'Hide description';
+      }
+    });
+  });
+</script>
+      
     </section>
   </main>
 
