@@ -101,7 +101,7 @@ main {
 .contact-actions{display:flex; gap:.6rem; flex-wrap:wrap}
 
 /* Footer */
-.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:10px; padding-bottom:10px; color:var(--muted); border-top:1px solid var(--border)}
+.site-footer{max-width:var(--maxw); margin:0 auto; padding-top:20px; padding-bottom:20px; color:var(--muted); border-top:1px solid var(--border)}
 
 /* Links */
 a{color:#3f8ed5; text-underline-offset:2px}
